@@ -79,7 +79,142 @@ For example:
 Expected Status: 200
 Actual Status:   200
 Result:          PASS
+---
 
+## 🛠️ Tech Stack
 
+- **Language:** Python
+- **Backend:** FastAPI
+- **Server:** Uvicorn
+- **Validation:** Pydantic
+- **HTTP Requests:** Requests
+- **Data Storage:** JSON
+- **Frontend:** Web Dashboard
+- **Version Control:** Git & GitHub
 
-#test commit
+---
+
+## 🏗️ How It Works
+
+```text
+User
+  ↓
+Web Dashboard
+  ↓
+FastAPI Backend
+  ↓
+Test Configuration
+  ↓
+API Testing Engine
+  ↓
+Response Validation
+  ↓
+Performance & Failure Analysis
+  ↓
+Test Results + History + Failure Patterns
+  ↓
+Recommendations
+```
+
+---
+
+## 📊 Project Structure
+
+```text
+API-Tester/
+│
+├── Dashboard/
+├── main.py
+├── tester.py
+├── ai_recommender.py
+├── test_cases.json
+├── test_results.json
+├── test_history.json
+├── failure_patterns.json
+└── requirements.txt
+```
+
+---
+
+## 🚀 How to Run
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Shashau/API-Tester.git
+cd API-Tester
+```
+
+### 2. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Start the application
+
+```bash
+uvicorn main:app --reload
+```
+
+### 4. Open the dashboard
+
+Open the dashboard in your browser and start configuring API test cases.
+
+---
+
+## 🔍 What the System Can Detect
+
+- ❌ Unexpected HTTP status codes
+- ❌ Response validation errors
+- ⚠️ Slow API responses
+- ⚠️ Inconsistent API responses
+- ❌ Connection errors
+
+The system analyzes detected issues and provides recommendations to help identify possible causes and next actions.
+
+---
+
+## 📸 Screenshots
+
+### 🖥️ Dashboard & API Test Results
+
+The dashboard allows users to configure REST API test cases, execute tests, and view real-time testing results.
+
+![REST API Testing Dashboard](screenshots/dashboard.png)
+
+---
+
+### 🔍 Failure Pattern Analysis & AI-Assisted Analysis
+
+The system analyzes failed and inconsistent API responses, identifies recurring failure patterns, and provides recommendations for troubleshooting.
+
+![Failure Pattern Analysis](screenshots/failure-analysis.png)
+
+---
+
+### 📚 API Documentation
+
+The project provides interactive API documentation using OpenAPI/Swagger, allowing developers to explore and test available endpoints.
+
+![API Documentation](screenshots/api-docs.png)
+---
+
+## 🎯 Future Improvements
+
+- Automated API test generation
+- Authentication and authorization testing
+- CI/CD integration
+- Advanced performance analytics
+- Exportable testing reports
+- Integration with additional AI/LLM models
+
+---
+
+## 👨‍💻 Author
+
+**Shashank H C**
+
+BCA Data Science Student | AI & Data Science | Cybersecurity Enthusiast
+
+GitHub: https://github.com/Shashau
