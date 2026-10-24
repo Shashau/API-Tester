@@ -181,7 +181,7 @@ The system analyzes detected issues and provides recommendations to help identif
 
 The dashboard allows users to configure REST API test cases, execute tests, and view real-time testing results.
 
-![REST API Testing Dashboard](screenshots/dashboard.png)
+![REST API Testing Dashboard](download.png)
 
 ---
 
@@ -189,7 +189,7 @@ The dashboard allows users to configure REST API test cases, execute tests, and 
 
 The system analyzes failed and inconsistent API responses, identifies recurring failure patterns, and provides recommendations for troubleshooting.
 
-![Failure Pattern Analysis](screenshots/failure-analysis.png)
+![Failure Pattern Analysis](download-1.png)
 
 ---
 
@@ -197,7 +197,7 @@ The system analyzes failed and inconsistent API responses, identifies recurring 
 
 The project provides interactive API documentation using OpenAPI/Swagger, allowing developers to explore and test available endpoints.
 
-![API Documentation](screenshots/api-docs.png)
+![API Documentation](download-2.png)
 ---
 
 ## 🎯 Future Improvements
